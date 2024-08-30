@@ -39,7 +39,7 @@ export default function Banner() {
         <h1 className=' text-white font-bold text-sm sm:text-lg md:text-3xl lg:text-4xl'>Certified car with</h1>
         <h1 className=' text-white font-bold text-sm sm:text-lg md:text-4xl lg:text-5xl'>Upto 12 Month Warrenty Plan</h1>
        <div className='justify-center flex'>
-       <Link to={"http://localhost:5173/shop"}> <button className='bg-lime-500 w-fit text-white mt-3 rounded px-3 py-2'>Explore Here</button>
+       <Link to={"/shop"}> <button className='bg-lime-500 w-fit text-white mt-3 rounded px-3 py-2'>Explore Here</button>
        </Link></div></div>
         <img src='../../public/images/images/banner2.webp'/>
           
@@ -50,7 +50,7 @@ export default function Banner() {
         <h1 className=' text-white font-bold text-sm sm:text-lg md:text-4xl lg:text-5xl'>Get Car At Zero Down Payment</h1>
         <div className='justify-center flex'>
 
-        <Link to={"http://localhost:5173/shop"}> <button className='bg-lime-500 w-fit text-white mt-3 rounded px-3 py-2'>Explore Here</button>
+        <Link to={"/shop"}> <button className='bg-lime-500 w-fit text-white mt-3 rounded px-3 py-2'>Explore Here</button>
        </Link></div>
         </div>
         <img src='../../public/images/images/banner3.webp' className='h-[660px]'/>
@@ -61,7 +61,7 @@ export default function Banner() {
         <h1 className=' text-white font-bold text-sm sm:text-lg md:text-4xl lg:text-5xl'>Get Best Offers On Festivals</h1>
         <div className='justify-center flex'>
 
-        <Link to={"http://localhost:5173/shop"}> <button className='bg-lime-500 w-fit text-white mt-3 rounded px-3 py-2'>Explore Here</button>
+        <Link to={"/shop"}> <button className='bg-lime-500 w-fit text-white mt-3 rounded px-3 py-2'>Explore Here</button>
        </Link></div>
         </div>
         <img src='../../public/images/images/banner4.webp'/>

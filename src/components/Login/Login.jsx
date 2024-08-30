@@ -40,7 +40,7 @@ function Login() {
 
   const redirectToHome = () => {
     // Redirect to the Home page after successful login
-    window.location.href = 'http://localhost:5173'; // Update the path as per your folder structure
+    window.location.href = ''; // Update the path as per your folder structure
   };
   
     return (
@@ -73,7 +73,7 @@ function Login() {
                            <button className="w-full px-4 py-2 tracking-wide text-white transition-colors duration-200 transform bg-blue-700 rounded-md hover:bg-gray-600 focus:outline-none focus:bg-gray-600" >Login</button>
                         </div>
                     </form>
-                    <p className="mt-4 text-sm text-center text-gray-700">Don't have an account? <a href='http://localhost:5173/Signup' className="font-medium text-blue-600 hover:underline">Sign up</a></p>
+                    <p className="mt-4 text-sm text-center text-gray-700">Don't have an account? <a href='/Signup' className="font-medium text-blue-600 hover:underline">Sign up</a></p>
                 </div>
             </div>
         </>
